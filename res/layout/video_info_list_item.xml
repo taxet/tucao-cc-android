@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="10dp"
+	android:paddingBottom="10dp">
+
+	<RelativeLayout 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent">
+		<TextView
+		    android:id="@+id/video_number"
+		    android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:textColor="#ff0099"
+			android:layout_marginRight="10dp"/>
+		<TextView 
+		    android:layout_toRightOf="@+id/video_number"
+		    android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+		    android:id="@+id/video_name"
+		    android:textColor="#373737"/>
+		
+	</RelativeLayout>
+	<!-- 新浪视频 type就是新浪 其他类似  不显示-->
+	<TextView 
+		android:id="@+id/video_type"
+		android:layout_width="wrap_content"
+		android:visibility="gone"
+		android:layout_height="wrap_content" />
+	<!-- 存 新浪id 优酷id 等等其他id的地方 不显示 -->
+	<TextView 
+		android:id="@+id/video_id"
+		android:layout_width="wrap_content"
+		android:visibility="gone"
+		android:layout_height="wrap_content" />
+</LinearLayout>

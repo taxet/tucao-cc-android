@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="10dp"
+	android:paddingBottom="10dp">
+	
+	<LinearLayout 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content"
+		android:gravity="center"
+		android:id="@+id/ll_video_thumb">
+		<!-- 用来设置视频缩略图的 id是iv_video_thumb -->
+		<ImageView
+			android:id="@+id/iv_video_thumb"
+			android:layout_width="65dp"
+			android:layout_height="40dp"
+			android:background="@drawable/loading_image_ing" />
+	</LinearLayout>
+	
+	<RelativeLayout 
+	    android:layout_toRightOf="@+id/ll_video_thumb"
+		android:orientation="vertical"
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:layout_marginLeft="10dp">
+
+		<!-- 这里是用来设置视频标题的 id是 tv_video_title -->
+		<TextView
+			style="@style/list_info_text_title_style"
+			android:id="@+id/tv_video_title"
+			/>
+		
+		<!-- 这里是用来设置视频介绍的 id是 tv_video_description  -->
+		<TextView
+			android:layout_below="@+id/tv_video_title"
+			android:id="@+id/tv_video_description"
+			style="@style/list_info_text_description_style"/>
+	
+		<LinearLayout 
+		    android:baselineAligned="false"
+		    android:layout_below="@+id/tv_video_description"
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0" 
+				android:gravity="left">
+				<!-- 这里是用来设置up主name的 id是 tv_video_username  -->
+				<TextView
+					style="@style/list_info_text_style2"
+					android:id="@+id/tv_video_username"/>
+			</LinearLayout>
+			
+			<LinearLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0" 
+				android:gravity="center">
+				<!-- 这里是用来设置TAG的 id是 tv_video_keywords -->
+				<TextView
+					style="@style/list_info_text_style2"
+					android:id="@+id/tv_video_keywords"
+					/>
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0" 
+				android:gravity="right">
+				<!-- 这里是用来设置updatetime的 id是 tv_video_updatetime  -->
+				<TextView
+					style="@style/list_info_text_style2"
+					android:id="@+id/tv_video_updatetime"/>
+			</LinearLayout>
+		</LinearLayout>		
+	</RelativeLayout>
+	<!-- 不显示的 用来存储 id 以及catid的 -->
+	<TextView 
+		android:id="@+id/catid"
+		android:layout_width="wrap_content"
+		android:visibility="gone"
+		android:layout_height="wrap_content" />
+		<TextView 
+		android:id="@+id/id"
+		android:layout_width="wrap_content"
+		android:visibility="gone"
+		android:layout_height="wrap_content" />
+</RelativeLayout>

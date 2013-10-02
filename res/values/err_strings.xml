@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 手机网络相关错误信息 -->
+    <string name="server_noweb_xml">&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;utf-8\&quot;?&gt;&lt;login_value&gt;&lt;uid&gt;0&lt;/uid&gt;&lt;state&gt;-200&lt;/state&gt;&lt;error_message&gt;检查一下网络&lt;/error_message&gt;&lt;/login_value&gt;</string>
+    <string name="server_nowesb_str">检查一下网络</string>
+
+	<!-- 请求接口相关错误信息 -->
+    <string name="server_noservice_xml">&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;utf-8\&quot;?&gt;&lt;login_value&gt;&lt;uid&gt;0&lt;/uid&gt;&lt;state&gt;-200&lt;/state&gt;&lt;error_message&gt;服务器好像坏掉了&lt;/error_message&gt;&lt;/login_value&gt;</string>
+    <string name="server_noservices_str">服务器好像坏掉了</string>
+</resources>

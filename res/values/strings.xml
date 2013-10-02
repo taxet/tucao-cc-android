@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">吐槽</string> <!-- 应用名称以及标题栏 -->
+
+    <string name="menu_info">关于</string> <!-- 上下文菜单 -->
+    <string name="app_info">关于：</string> <!-- 上下文菜单dialog标题 -->
+    <string name="app_info_text">吐槽Android客户端测试版\n\n此版本适用于Android2.3以及2.3以上操作系统系列手机，对于在其他操作系统平台的手机上使用本软件，出现任何问题作者概不负责，本程序是由百度贴吧@zy405886431个人开发，下载、安装、使用本程序，将可能导致不可预知的风险，由此产生的一切法律责任与纠纷一概与作者本人无关，使用过程中如果出现头晕耳鸣眼花等症状，请速到最近医院接收治疗。本程序的安装和使用不收取任何费用，下载和使用过程中产生的GPRS数据流量费用由运营商收取。\n\n联系作者:\n百度贴吧@<b><i>zy405886431</i></b>\nQQ:405886431\n新浪微博@阪本先生戴墨镜</string> <!-- 上下文菜单dialog内容 -->
+    <string name="menu_exit">退出</string>
+  
+    <string name="app_exit">真的要退出么?</string> <!-- 退出提示标题 -->
+    <string name="ok">嗯</string> <!-- dialog提示 确定性按钮 -->
+    <string name="no">在想想</string> <!-- 否定性按钮 -->
+
+    <string name="animation">┏━━━动　画━━━┓</string> <!-- 大分区名字 -->
+    <string name="animation_1">动画</string>
+    <string name="mad">MAD(AMV)</string> <!-- 小分区名字 以及 小分区标题 -->
+    <string name="mmd">MMD(3D)</string>
+    <string name="zonghe">综合</string>
+    <string name="music">┏━━━音　乐━━━┓</string>
+    <string name="music_1">音乐</string>
+    <string name="music_2">二次元音乐</string>
+    <string name="fanchang">翻唱</string>
+    <string name="vocaloid">vocaloid(utau)</string>
+    <string name="yanzou">演奏</string>
+    <string name="game">┏━━━游　戏━━━┓</string>
+    <string name="game_1">游戏</string>
+    <string name="yingxiang">影像(录屏)</string>
+    <string name="jieshuo">解说(攻略)</string>
+    <string name="sanciyuan">┏━━━三次元━━━┓</string>
+    <string name="sanciyuan_1">三次元</string>
+    <string name="xiwenlejian">喜闻乐见</string>
+    <string name="wudao">舞蹈</string>
+    <string name="yuleguichu">娱乐鬼畜</string>
+    <string name="kexue">科学(技术)</string>
+    <string name="heji">┏━━━合　 集━━━┓</string>
+    <string name="heji_1">合集</string>
+    <string name="donghua">动画合集</string>
+    <string name="juchang">剧场合集</string>
+    <string name="xinfan">┏━━━新　番━━━┓</string>
+    <string name="xinfan_1">新番</string>
+    <string name="xinfanlianzai">新番连载 </string>
+    <string name="zhongpeidonghua">中配动画 </string>
+    <string name="newsanciyuan">三次元新剧 </string>
+    <string name="up">UP主: </string> <!-- 视频列表的信息 -->
+    <string name="TAG">TAG: </string>
+    <string name="time">更新时间: </string>
+    <string name="video_description">视频简介</string>
+    <string name="video_TAG">视频TAG</string>
+    <string name="video_content">视频内容</string>
+    <string name="video_button">戳这里转到视频列表</string>
+    <string name="video_button_back">戳这里回去</string>
+    <string name="none_description">没有简介呢</string> <!-- 值为空的时候显示信息 -->
+    <string name="none_TAG">没有TAG呢</string>
+    <string name="network_is_wifi">wifi上网,慢点别把我玩坏了 </string> <!-- 上网类型 -->
+    <string name="network_is_3G">注意流量哦 </string>
+    <string name="network_none">检查一下网络 </string> <!-- 未联网提示 -->
+    <string name="network_noserves">服务器好像坏掉了 </string> <!-- 服务器无响应提示 -->
+
+    <string name="diyiye">第1页</string> <!-- 更多菜单界面的文字 -->
+    <string name="pgup">上一页</string>
+    <string name="pgdn">下一页</string>
+    <string name="refresh">刷  新</string>
+    <string name="jump">跳到</string>
+    <string name="to">第</string> <!-- 这个在更多菜单的 顶部和底部都用到了 -->
+    <string name="jump_page">页</string> <!-- 这个在更多菜单的 顶部和底部都用到了 -->
+    <string name="jump_go">jump</string>
+
+</resources>

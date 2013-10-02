@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:scrollbars="none">
+    
+	<LinearLayout
+	    android:layout_width="220dp"
+	    android:layout_height="wrap_content"
+		android:background="@drawable/back"
+		android:layout_gravity="center_horizontal"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical" >
+	    
+			<TextView 
+				android:text="@string/diyiye"
+				android:id="@+id/tv_title_more"
+				android:gravity="center"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"/>
+			<Button 
+				android:text="@string/pgup" 
+				android:id="@+id/btn_title_up"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"/>
+			<Button 
+				android:text="@string/pgdn" 
+				android:id="@+id/btn_title_down"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"/>
+			<Button 
+				android:text="@string/refresh" 
+				android:id="@+id/btn_title_refresh"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"/>
+	
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" 
+			    android:gravity="center">
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1.0"
+				    android:text="@string/jump" />
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1.0"
+				    android:text="@string/to" />
+			    <EditText
+			        android:id="@+id/edit_title_jump"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:inputType="number" 
+			        android:ems="3"
+			        android:maxLength="4">
+			    </EditText>
+			    <TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:text="@string/jump_page" />
+			    <Button 
+			        android:id="@+id/btn_title_jump"
+					android:text="@string/jump_go" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"/>
+			</LinearLayout>
+	</LinearLayout>
+</ScrollView>
